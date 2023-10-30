@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "uglify-js": "^3.17.4"
+  },
+  "scripts": {
+    "build": "node hospedar.js && git add . && git commit -am \"make it better\" && git push heroku master",
+    "start": "up"
+  },
+  "dependencies": {
+    "html-minifier-terser": "^7.2.0",
+    "javascript-obfuscator": "^4.0.2"
+  }
+}
