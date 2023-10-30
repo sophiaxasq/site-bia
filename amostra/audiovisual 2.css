@@ -1,0 +1,272 @@
+/* Estilos para telas maiores que 768px */
+@media (min-width: 768px) {
+	#menu li {
+	  display: inline-block;
+	  font-family: 'Montserrat', sans-serif;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	  transition: 0.3s;
+	}
+  
+	#menu li:hover {
+	  padding-left: 12px;
+	  padding-right: 12px;
+	  transition: 0.3s;
+	}
+  
+	#topo {
+	  font-family: 'Roboto', sans-serif;
+	  line-height: 20px;
+	  color: white;
+	  font-size: 30px;
+	  text-align: center;
+	  padding: 20px;
+	}
+  
+	#topo h1 {
+	  color: #fff;
+	  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	}
+  
+	#depoimentos {
+	  background: linear-gradient(to bottom, #9b59b6, #34495e);
+	  padding: 50px;
+	  text-align: center;
+	  overflow: hidden;
+	}
+  
+	#depoimentos h2 {
+	  font-family: 'Montserrat', sans-serif;
+	  font-size: 36px;
+	  margin-bottom: 50px;
+	  color: white;
+	}
+  
+	.depoimento {
+	  display: inline-block;
+	  width: 30%;
+	  max-width: 400px;
+	  margin: 20px auto;
+	  vertical-align: top;
+	  text-align: center;
+	  padding: 20px;
+	  background-color: white;
+	  border-radius: 10px;
+	}
+  
+	.depoimento img {
+	  border-radius: 50%;
+	  width: 80px;
+	  height: 80px;
+	  margin-bottom: 20px;
+	}
+  
+	.depoimento p {
+	  font-family: 'Roboto', sans-serif;
+	  font-size: 18px;
+	  line-height: 1.5;
+	  color: #444;
+	}
+  
+	body {
+	  background: linear-gradient(to bottom, #9b59b6, #34495e);
+	}
+  
+	.euquerotopo{
+	  width: 720px;
+	  height: 100px;
+	  background-image: linear-gradient(#1da573, #20cc8d,  #1da573);
+	  border: none;
+	  color: #2f3030;
+	  font-size: 30px;
+	  border-radius: 15px 15px 15px 15px;
+	  box-shadow: 0px 15px 40px 10px black;
+	  font-weight: bold;
+	  transition: 0.6s;
+	  cursor: pointer;        
+	}
+  
+	.euquerotopo:hover{
+	  font-size: 35px;
+	  box-shadow: 0px 15px 30px 10px black;
+	}
+  }
+  
+  /* Estilos para telas menores que 768px */
+  @media (max-width: 767px) {
+	#menu li {
+		display: inline-block;
+		font-family: 'Montserrat', sans-serif;
+		padding-left: 10px;
+		padding-right: 10px;
+		transition: 0.3s;
+	}
+	
+	#menu li:hover {
+		padding-left: 12px;
+		padding-right: 12px;
+		transition: 0.3s;
+	}
+	
+	#topo {
+		font-family: 'Roboto', sans-serif;
+		line-height: 20px;
+		color: white;
+		font-size: 30px;
+		text-align: center;
+		padding: 20px;
+	}
+	
+	#topo h1 {
+		color: #fff;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	
+	#depoimentos {
+		background: linear-gradient(to bottom, #9b59b6, #34495e);
+		padding: 50px;
+		text-align: center;
+		overflow: hidden;
+	}
+	
+	#depoimentos h2 {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 36px;
+		margin-bottom: 50px;
+		color: white;
+	}
+	
+	.depoimento {
+		display: inline-block;
+		width: 100%;
+		max-width: 400px;
+		margin: 20px auto;
+		vertical-align: top;
+		text-align: center;
+		padding: 20px;
+		background-color: white;
+		border-radius: 10px;
+	}
+	
+	.depoimento img {
+		border-radius: 50%;
+		width: 80px;
+		height: 80px;
+		margin-bottom: 20px;
+	}
+	
+	.depoimento p {
+		font-family: 'Roboto', sans-serif;
+		font-size: 18px;
+		line-height: 1.5;
+		color: #444;
+	}
+	
+	body {
+		background: linear-gradient(to bottom, #9b59b6, #34495e);
+		margin: 0;
+	}
+	
+	#videohere {
+		width: 720px;
+		max-width: 405px;
+	
+	}
+	
+	.euquerotopo {
+		width: 100%;
+		max-width: 720px;
+		height: 100px;
+		background-image: linear-gradient(#1da573, #20cc8d,  #1da573);
+		border: none;
+		color: #2f3030;
+		font-size: 30px;
+		border-radius: 15px 15px 15px 15px;
+		box-shadow: 0px 15px 40px 10px black;
+		font-weight: bold;
+		transition: 0.6s;
+		cursor: pointer;
+		margin-bottom: 20px;
+	}
+	
+	.euquerotopo:hover {
+		font-size: 35px;
+		box-shadow: 0px 15px 30px 10px black;
+	}
+	
+	@media (max-width: 720px) {
+		#topo {
+			font-size: 24px;
+		}
+		
+		#depoimentos h2 {
+			font-size: 24px;
+		}
+		
+		.depoimento {
+			max-width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		#videohere {
+			width: 720px;
+		max-width: 405px;
+	
+		}
+		
+		.euquerotopo {
+			width: 100%;
+			height: 80px;
+			max-width: 400px;
+			background-image: linear-gradient(#1da573, #20cc8d,  #1da573);
+			border: none;
+			color: #2f3030;
+			font-size: 30px;
+			border-radius: 15px;
+			box-shadow: 0px 15px 40px 10px black;
+			font-weight: bold;
+			transition: 0.6s;
+			cursor: pointer;        
+			margin-top: 20px;
+		}
+		
+		.euquerotopo:hover {
+			font-size: 35px;
+			box-shadow: 0px 15px 30px 10px black;
+		}
+		
+		@media screen and (min-width: 768px) {
+			#depoimentos {
+				padding: 80px;
+			}
+		
+			#depoimentos .depoimento {
+				display: inline-block;
+				margin: 20px;
+				vertical-align: top;
+				text-align: center;
+				padding: 40px;
+				background-color: white;
+				border-radius: 20px;
+			}
+		
+			#depoimentos .depoimento img {
+				width: 120px;
+				height: 120px;
+				margin-bottom: 30px;
+			}
+		
+			#depoimentos .depoimento p {
+				font-size: 24px;
+			}
+		
+			.euquerotopo {
+				width: 300px;
+				height: 80px;
+			}
+		}
+	}
+}
